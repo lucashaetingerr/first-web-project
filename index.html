@@ -1,33 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Teste Lucashrr100</title>
+    <title>CSS First Practice</title>
 
     <link rel="stylesheet" href="style.css">
     <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
 
     <script src="gitado.js"></script>
 </head>
+
 <body>
 
     <div class="corpo">
         <strong style="font-size: 35px; font-family: Raleway; ">Calcular</strong>
         <p></p>
-        Valor saldo: R$<input type="number" name="" id="txt_valor1">
+        <label for="txt_valor1">Valor de saldo em R$:</label>
+        <input type="number" name="" id="txt_valor1" placeholder="">
         <p></p>
-        Valor produto: R$<input type="number" name="" id="txt_valor2">
+        <label for="txt_valor2">Valor do(s) produto(s) em R$:</label>
+        <input type="number" name="" id="txt_valor2" placeholder="">
         <p></p>
-    
-        <input type="button" value="Verificar" onclick='verificar()' class="button botao1">
+
+        <input type="button" value="Verificar" onclick='verificar()' class="button botao1" id="bt1">
         <input type="button" value="Limpar" onclick='limpar()' class="button botao1">
         <div id='verif'></div>
     </div>
-    
+
 </body>
 <footer>
-    <p class="pe">Developed by LUCASHRR100</p>
+    <p class="pe">Developed by @lucashaetingerr</p>
 </footer>
+
 </html>
